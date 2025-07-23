@@ -65,6 +65,15 @@ A Spring Boot microservice for managing hotel data, including creation, retrieva
 - **GET** `/hotels/{hotelId}`
 - **Response:** Hotel object with the given ID
 
+## API Documentation
+
+After starting the application, you can access the Swagger UI for interactive API documentation at:
+
+- [http://localhost:8081/swagger-ui.html](http://localhost:8081/swagger-ui.html)
+- [http://localhost:8081/swagger-ui/index.html](http://localhost:8081/swagger-ui/index.html)
+- [http://localhost:8081/v3/api-docs](http://localhost:8081/v3/api-docs) (OpenAPI JSON)
+- [http://localhost:8081/v3/api-docs/swagger-config](http://localhost:8081/v3/api-docs/swagger-config) (Swagger config)
+
 ## Project Structure
 - `controllers/` - REST controllers
 - `entities/` - JPA entities
